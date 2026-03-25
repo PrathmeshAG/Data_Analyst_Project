@@ -20,6 +20,9 @@ The SQL analysis is organized into **three progressive analytical levels** to de
 These queries can be executed in **MySQL or PostgreSQL environments** and can support further integration with **BI tools such as Power BI, Excel, or Tableau**.
 
 ---
+## 📋CONNECTIONS 
+![Pizza_sales_Project](Screenshots/CONNECTIONS.png)
+---
 
 # 🗄️ Database Setup
 
