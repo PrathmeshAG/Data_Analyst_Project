@@ -36,7 +36,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 
 ---
 
-## 🔵 Customer Intelligence & Retention
+## 🔵 Filtered View
 ![Customer Intelligence](Images/Main_2.png)
 
 **What it shows:** Category/region filtered insights.  
