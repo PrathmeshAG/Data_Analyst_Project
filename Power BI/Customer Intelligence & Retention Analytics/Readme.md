@@ -29,7 +29,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 # 📊 Dashboard Preview
 
 ## 🟢 Main Dashboard
-![Main Dashboard](./Main%201.png)
+![Main Dashboard](Images/Main_1.png)
 
 **What it shows:** KPIs (Revenue, Orders, Customers, AOV), category-wise sales, geo distribution.  
 **Business use:** Quick executive snapshot of performance.
@@ -37,15 +37,16 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ---
 
 ## 🔵 Customer Intelligence & Retention
-![Customer Intelligence](./Main%202.png)
+![Customer Intelligence](Images/Main_2.png)
 
-**What it shows:** Repeat vs New customers, top customers, revenue by category.  
-**Business use:** Identify high-value and loyal customers.
+**What it shows:** Category/region filtered insights.  
+**Business use:** Segment-focused decision making.
+
 
 ---
 
 ## 🟣 Tooltip Interaction
-![Tooltip](./Main%20tool%20tips.png)
+![Tooltip](Images/Main_tooltips.png)
 
 **What it shows:** Hover-based details without clutter.  
 **Business use:** Fast exploration while keeping the canvas clean.
@@ -53,7 +54,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ---
 
 ## 🟡 Retention & Sales Performance
-![Retention](./second%201.png)
+![Retention](Images/second.png)
 
 **What it shows:** Active vs Inactive customers, repeat count, churn signals.  
 **Business use:** Track retention health and churn risk.
@@ -61,7 +62,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ---
 
 ## 🔶 Filtered View
-![Filtered View](./Secoond_2.png)
+![Filtered View](Images/Secoond_2.png)
 
 **What it shows:** Category/region filtered insights.  
 **Business use:** Segment-focused decision making.
@@ -69,7 +70,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ---
 
 ## 🔍 Drillthrough – Customer Details
-![Drillthrough](./Drill_through.png)
+![Drillthrough](Images/Drill_through.png)
 
 **What it shows:** Customer-level KPIs, order history, trends.  
 **Business use:** Deep-dive into any customer.
@@ -77,7 +78,7 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ---
 
 ## 🧠 Tooltip Detail View
-![Tooltip Detail](./Tooltips.png)
+![Tooltip Detail](Images/Tooltips.png)
 
 **What it shows:** Customer distribution by country on hover.  
 **Business use:** Geo insights without navigation.
@@ -98,3 +99,103 @@ Raw Data → **Python (Pandas) Cleaning** → **Power BI (Model + DAX)** → Int
 ### Total Revenue
 ```DAX
 Total Revenue = SUM(Orders[Revenue])
+```
+
+### Total Orders
+```DAX
+Total Orders = DISTINCTCOUNT(Orders[OrderID])
+```
+
+
+
+### Previous Month Revenue
+```DAX
+Previous Month Revenue = 
+CALCULATE([Total Revenue], DATEADD(Date[Date], -1, MONTH))
+```
+
+### Revenue Growth %
+```DAX
+Revenue Growth % = 
+VAR Prev = [Previous Month Revenue]
+RETURN 
+IF(
+    NOT ISBLANK(Prev),
+    DIVIDE([Total Revenue] - Prev, Prev),
+    0
+)
+```
+### Repeat Customers
+```DAX
+Repeat Customers = 
+CALCULATE(
+    DISTINCTCOUNT(Orders[CustomerID]),
+    FILTER(
+        VALUES(Orders[CustomerID]),
+        CALCULATE(COUNT(Orders[OrderID])) > 1
+    )
+)
+```
+
+### Recency Days
+```DAX
+Recency Days = 
+DATEDIFF(
+    [Last Purchase Date],
+    CALCULATE(MAX(Orders[OrderDate]), ALL(Orders)),
+    DAY
+)
+```
+
+### Inactive Customers (Churn Risk)
+```DAX
+Inactive Customers =
+VAR LatestDate = CALCULATE(MAX(Orders[OrderDate]), ALL(Orders))
+RETURN
+CALCULATE(
+    DISTINCTCOUNT(Orders[CustomerID]),
+    FILTER(
+        VALUES(Orders[CustomerID]),
+        DATEDIFF(
+            CALCULATE(MAX(Orders[OrderDate])),
+            LatestDate,
+            DAY
+        ) > 30
+    )
+)
+```
+
+
+
+### Customer Rank
+```DAX
+Customer Rank = 
+RANKX(
+    ALL(Orders[CustomerID]),
+    [Total Revenue],
+    ,
+    DESC
+)
+```
+
+
+# 📈 Key Insights
+- Top customers contribute major revenue  
+- Identified inactive customers using recency logic  
+- Category-wise sales trends observed  
+- Region-wise performance differences  
+
+---
+
+# 💼 Business Value
+- Improves customer retention strategies  
+- Identifies high-value customers  
+- Enables better business decisions  
+
+---
+
+# 🧠 Learning Outcomes
+- End-to-end data analysis  
+- Python data cleaning  
+- Power BI dashboard development  
+- Advanced DAX implementation  
