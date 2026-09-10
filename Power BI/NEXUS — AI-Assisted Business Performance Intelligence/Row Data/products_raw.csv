@@ -1,0 +1,501 @@
+ProductID,ProductName,Category,UnitCost,UnitPrice
+PROD0001,Product 1,Accessories,354.7,713.9
+PROD0002,Product 2,Accessories,84.92,109.46
+PROD0003,Product 3,Electronics,187.09,390.14
+PROD0004,Product 4,Electronics,570.24,1237.5
+PROD0005,Product 5,Furniture,706.59,1381.42
+PROD0006,Product 6,Electronics,690.2,941.38
+PROD0007,Product 7,Furniture,541.97,1093.16
+PROD0008,Product 8,Software,112.89,210.55
+PROD0009,Product 9,Electronics,54.87,86.25
+PROD0010,Product 10,Furniture,712.64,1489.3
+PROD0011,Product 11,Accessories,512.46,915.91
+PROD0012,Product 12,Office Supplies,713.13,1469.25
+PROD0013,Product 13,Electronics,180.0,339.59
+PROD0014,Product 14,Electronics,390.38,594.97
+PROD0015,Product 15,Software,830.49,1807.37
+PROD0016,Product 16,Electronics,187.57,336.21
+PROD0017,Product 17,Office Supplies,92.91,161.75
+PROD0018,Product 18,Accessories,601.98,983.23
+PROD0019,Product 19,Electronics,551.3,760.53
+PROD0020,Product 20,Accessories,858.75,1633.26
+PROD0021,Product 21,Electronics,819.56,1359.86
+PROD0022,Product 22,Furniture,684.51,1463.4
+PROD0023,Product 23,Furniture,56.48,122.38
+PROD0024,Product 24,Software,453.13,896.86
+PROD0025,Product 25,Electronics,810.65,1200.06
+PROD0026,Product 26,Electronics,412.94,797.05
+PROD0027,Product 27,Software,867.45,1101.14
+PROD0028,Product 28,Electronics,601.14,1223.37
+PROD0029,Product 29,Accessories,134.13,230.56
+PROD0030,Product 30,Office Supplies,477.97,1022.81
+PROD0031,Product 31,Office Supplies,638.23,1026.83
+PROD0032,Product 32,Accessories,96.22,144.33
+PROD0033,Product 33,Accessories,336.4,738.5
+PROD0034,Product 34,Electronics,656.69,1151.93
+PROD0035,Product 35,Software,175.08,362.42
+PROD0036,Product 36,Software,339.57,718.36
+PROD0037,Product 37,Software,633.32,1103.59
+PROD0038,Product 38,Office Supplies,706.97,1189.78
+PROD0039,Product 39,Office Supplies,485.92,862.63
+PROD0040,Product 40,Office Supplies,862.9,1773.56
+PROD0041,Product 41,Electronics,835.78,1810.66
+PROD0042,Product 42,Office Supplies,447.16,698.42
+PROD0043,Product 43,Office Supplies,177.84,347.09
+PROD0044,Product 44,Office Supplies,704.72,1071.95
+PROD0045,Product 45,Furniture,249.1,455.95
+PROD0046,Product 46,Furniture,764.83,1540.79
+PROD0047,Product 47,Office Supplies,544.94,1140.1
+PROD0048,Product 48,Furniture,378.92,635.18
+PROD0049,Product 49,Software,518.49,830.24
+PROD0050,Product 50,Accessories,498.22,742.74
+PROD0051,Product 51,Electronics,835.27,1149.95
+PROD0052,Product 52,Electronics,224.35,358.21
+PROD0053,Product 53,Office Supplies,838.22,1742.14
+PROD0054,Product 54,Furniture,66.95,110.32
+PROD0055,Product 55,Accessories,701.51,1088.34
+PROD0056,Product 56,Electronics,830.91,1622.08
+PROD0057,Product 57,Electronics,378.88,551.2
+PROD0058,Product 58,Furniture,102.84,153.59
+PROD0059,Product 59,Accessories,732.01,1565.85
+PROD0060,Product 60,Software,764.86,1015.36
+PROD0061,Product 61,Software,329.18,541.14
+PROD0062,Product 62,Office Supplies,485.99,873.77
+PROD0063,Product 63,Accessories,736.14,1081.2
+PROD0064,Product 64,Electronics,205.16,311.22
+PROD0065,Product 65,Office Supplies,580.92,848.58
+PROD0066,Product 66,Software,410.34,647.49
+PROD0067,Product 67,Furniture,190.0,399.68
+PROD0068,Product 68,Software,755.04,1253.37
+PROD0069,Product 69,Electronics,319.23,525.75
+PROD0070,Product 70,Electronics,843.61,1364.33
+PROD0071,Product 71,Office Supplies,529.28,1146.37
+PROD0072,Product 72,Software,482.48,656.86
+PROD0073,Product 73,Furniture,404.04,839.71
+PROD0074,Product 74,Accessories,384.58,600.25
+PROD0075,Product 75,Electronics,743.45,1604.88
+PROD0076,Product 76,Accessories,622.65,964.77
+PROD0077,Product 77,Office Supplies,705.37,937.25
+PROD0078,Product 78,Electronics,402.13,701.33
+PROD0079,Product 79,Accessories,264.84,388.38
+PROD0080,Product 80,Accessories,114.7,225.42
+PROD0081,Product 81,Office Supplies,707.92,1326.95
+PROD0082,Product 82,Electronics,397.14,755.42
+PROD0083,Product 83,Electronics,477.93,685.26
+PROD0084,Product 84,Software,443.64,853.21
+PROD0085,Product 85,Office Supplies,410.78,634.97
+PROD0086,Product 86,Accessories,628.15,1381.14
+PROD0087,Product 87,Office Supplies,563.51,1096.13
+PROD0088,Product 88,Accessories,875.97,1586.29
+PROD0089,Product 89,Electronics,159.46,330.68
+PROD0090,Product 90,Office Supplies,533.23,965.06
+PROD0091,Product 91,Office Supplies,94.39,167.55
+PROD0092,Product 92,Electronics,734.81,1084.18
+PROD0093,Product 93,Electronics,570.03,1079.75
+PROD0094,Product 94,Office Supplies,408.41,655.87
+PROD0095,Product 95,Accessories,729.92,942.27
+PROD0096,Product 96,Office Supplies,431.3,873.49
+PROD0097,Product 97,Electronics,235.9,306.5
+PROD0098,Product 98,Software,446.35,843.01
+PROD0099,Product 99,Electronics,100.92,141.18
+PROD0100,Product 100,Electronics,812.16,1348.95
+PROD0101,Product 101,Software,668.62,1381.46
+PROD0102,Product 102,Accessories,693.87,929.58
+PROD0103,Product 103,Software,792.06,1492.08
+PROD0104,Product 104,Accessories,720.75,1320.41
+PROD0105,Product 105,Office Supplies,411.39,853.29
+PROD0106,Product 106,Furniture,142.03,200.84
+PROD0107,Product 107,Furniture,361.09,725.72
+PROD0108,Product 108,Software,843.31,1414.75
+PROD0109,Product 109,Accessories,856.22,1418.94
+PROD0110,Product 110,Furniture,700.37,1116.18
+PROD0111,Product 111,Furniture,215.81,348.81
+PROD0112,Product 112,Furniture,207.23,361.4
+PROD0113,Product 113,Furniture,796.6,1076.57
+PROD0114,Product 114,Accessories,162.05,268.0
+PROD0115,Product 115,Electronics,542.36,1013.88
+PROD0116,Product 116,Furniture,365.3,629.52
+PROD0117,Product 117,Software,299.73,421.88
+PROD0118,Product 118,Office Supplies,622.55,992.9
+PROD0119,Product 119,Furniture,865.23,1445.64
+PROD0120,Product 120,Furniture,708.77,1336.34
+PROD0121,Product 121,Electronics,458.1,964.63
+PROD0122,Product 122,Electronics,419.01,742.84
+PROD0123,Product 123,Electronics,820.59,1553.01
+PROD0124,Product 124,Electronics,537.17,710.85
+PROD0125,Product 125,Electronics,467.11,1007.44
+PROD0126,Product 126,Furniture,627.24,971.88
+PROD0127,Product 127,Electronics,243.95,387.05
+PROD0128,Product 128,Software,94.81,138.58
+PROD0129,Product 129,Electronics,775.4,1031.62
+PROD0130,Product 130,Furniture,562.25,1124.81
+PROD0131,Product 131,Accessories,181.79,268.77
+PROD0132,Product 132,Electronics,296.32,449.98
+PROD0133,Product 133,Office Supplies,891.34,1268.12
+PROD0134,Product 134,Accessories,585.6,1274.35
+PROD0135,Product 135,Office Supplies,587.06,1169.41
+PROD0136,Product 136,Electronics,102.06,217.74
+PROD0137,Product 137,Accessories,873.33,1806.6
+PROD0138,Product 138,Office Supplies,807.79,1705.23
+PROD0139,Product 139,Furniture,511.09,871.45
+PROD0140,Product 140,Electronics,306.07,432.18
+PROD0141,Product 141,Electronics,640.33,999.26
+PROD0142,Product 142,Accessories,756.7,1156.11
+PROD0143,Product 143,Furniture,716.06,1382.91
+PROD0144,Product 144,Electronics,880.26,1121.79
+PROD0145,Product 145,Office Supplies,587.7,813.93
+PROD0146,Product 146,Software,316.25,600.48
+PROD0147,Product 147,Electronics,468.22,640.18
+PROD0148,Product 148,Electronics,742.03,961.58
+PROD0149,Product 149,Furniture,268.19,363.06
+PROD0150,Product 150,Office Supplies,239.01,455.59
+PROD0151,Product 151,Furniture,663.36,917.0
+PROD0152,Product 152,Software,422.21,586.45
+PROD0153,Product 153,Electronics,742.25,1090.21
+PROD0154,Product 154,Furniture,163.57,321.15
+PROD0155,Product 155,Furniture,328.7,473.44
+PROD0156,Product 156,Furniture,270.57,347.31
+PROD0157,Product 157,Office Supplies,640.17,1351.12
+PROD0158,Product 158,Accessories,693.02,1443.22
+PROD0159,Product 159,Furniture,432.16,616.08
+PROD0160,Product 160,Accessories,451.11,677.6
+PROD0161,Product 161,Electronics,153.55,219.44
+PROD0162,Product 162,Office Supplies,643.57,1244.38
+PROD0163,Product 163,Furniture,893.39,1328.93
+PROD0164,Product 164,Office Supplies,709.01,1513.65
+PROD0165,Product 165,Electronics,231.88,472.17
+PROD0166,Product 166,Software,575.89,1041.77
+PROD0167,Product 167,Software,293.66,369.57
+PROD0168,Product 168,Accessories,65.95,137.8
+PROD0169,Product 169,Software,194.65,377.89
+PROD0170,Product 170,Electronics,128.23,256.27
+PROD0171,Product 171,Office Supplies,208.5,274.85
+PROD0172,Product 172,Furniture,724.22,1392.77
+PROD0173,Product 173,Software,291.84,587.87
+PROD0174,Product 174,Electronics,691.05,1491.84
+PROD0175,Product 175,Electronics,856.02,1542.07
+PROD0176,Product 176,Office Supplies,533.87,925.0
+PROD0177,Product 177,Electronics,457.45,756.68
+PROD0178,Product 178,Accessories,685.11,1312.82
+PROD0179,Product 179,Electronics,123.5,262.41
+PROD0180,Product 180,Office Supplies,408.26,742.94
+PROD0181,Product 181,Accessories,468.99,687.5
+PROD0182,Product 182,Office Supplies,754.7,955.97
+PROD0183,Product 183,Electronics,740.23,1360.66
+PROD0184,Product 184,Electronics,769.51,1593.94
+PROD0185,Product 185,Electronics,640.17,840.34
+PROD0186,Product 186,Electronics,496.28,807.79
+PROD0187,Product 187,Office Supplies,751.98,1611.53
+PROD0188,Product 188,Furniture,791.02,1365.77
+PROD0189,Product 189,Electronics,453.22,661.53
+PROD0190,Product 190,Electronics,887.67,1407.82
+PROD0191,Product 191,Software,792.34,1297.64
+PROD0192,Product 192,Electronics,479.0,652.12
+PROD0193,Product 193,Furniture,99.59,187.01
+PROD0194,Product 194,Furniture,233.06,422.43
+PROD0195,Product 195,Electronics,707.7,1320.1
+PROD0196,Product 196,Software,135.59,248.16
+PROD0197,Product 197,Electronics,444.03,562.07
+PROD0198,Product 198,Office Supplies,560.17,793.05
+PROD0199,Product 199,Office Supplies,795.38,1119.33
+PROD0200,Product 200,Accessories,768.52,1032.16
+PROD0201,Product 201,Office Supplies,697.28,1358.79
+PROD0202,Product 202,Accessories,390.62,532.86
+PROD0203,Product 203,Furniture,162.33,305.96
+PROD0204,Product 204,Office Supplies,615.9,874.25
+PROD0205,Product 205,Accessories,195.91,266.91
+PROD0206,Product 206,Office Supplies,522.73,734.12
+PROD0207,Product 207,Office Supplies,883.38,1530.88
+PROD0208,Product 208,Electronics,513.27,956.33
+PROD0209,Product 209,Electronics,595.18,1203.05
+PROD0210,Product 210,Furniture,622.71,854.44
+PROD0211,Product 211,Electronics,754.13,1384.11
+PROD0212,Product 212,Furniture,414.08,822.01
+PROD0213,Product 213,Electronics,467.86,723.68
+PROD0214,Product 214,Office Supplies,191.34,253.67
+PROD0215,Product 215,Accessories,568.62,795.02
+PROD0216,Product 216,Office Supplies,294.35,393.54
+PROD0217,Product 217,Office Supplies,476.56,997.37
+PROD0218,Product 218,Electronics,699.24,1124.28
+PROD0219,Product 219,Electronics,55.11,96.29
+PROD0220,Product 220,Office Supplies,524.97,1039.57
+PROD0221,Product 221,Accessories,189.16,303.21
+PROD0222,Product 222,Accessories,280.27,523.17
+PROD0223,Product 223,Office Supplies,69.85,92.4
+PROD0224,Product 224,Accessories,185.74,317.03
+PROD0225,Product 225,Accessories,888.5,1192.09
+PROD0226,Product 226,Accessories,898.73,1335.4
+PROD0227,Product 227,Accessories,659.07,1007.5
+PROD0228,Product 228,Electronics,566.2,1093.73
+PROD0229,Product 229,Electronics,708.23,1338.84
+PROD0230,Product 230,Furniture,811.04,1589.42
+PROD0231,Product 231,Office Supplies,486.6,636.8
+PROD0232,Product 232,Accessories,70.34,154.34
+PROD0233,Product 233,Furniture,650.08,846.21
+PROD0234,Product 234,Electronics,886.76,1804.08
+PROD0235,Product 235,Accessories,261.93,511.62
+PROD0236,Product 236,Electronics,438.58,794.78
+PROD0237,Product 237,Accessories,350.7,584.59
+PROD0238,Product 238,Electronics,375.8,740.05
+PROD0239,Product 239,Furniture,660.4,1289.67
+PROD0240,Product 240,Furniture,365.43,504.41
+PROD0241,Product 241,Furniture,849.33,1701.21
+PROD0242,Product 242,Electronics,719.11,952.55
+PROD0243,Product 243,Electronics,63.78,110.05
+PROD0244,Product 244,Furniture,743.95,1385.85
+PROD0245,Product 245,Furniture,704.66,1430.89
+PROD0246,Product 246,Accessories,484.18,818.24
+PROD0247,Product 247,Electronics,467.26,689.22
+PROD0248,Product 248,Furniture,758.55,1301.77
+PROD0249,Product 249,Electronics,405.32,602.99
+PROD0250,Product 250,Software,177.14,310.4
+PROD0251,Product 251,Accessories,309.09,522.17
+PROD0252,Product 252,Software,268.07,533.86
+PROD0253,Product 253,Software,625.71,924.85
+PROD0254,Product 254,Furniture,193.83,279.11
+PROD0255,Product 255,Office Supplies,594.5,1010.93
+PROD0256,Product 256,Furniture,440.73,572.06
+PROD0257,Product 257,Software,762.11,1118.68
+PROD0258,Product 258,Furniture,457.1,724.97
+PROD0259,Product 259,Furniture,839.63,1438.49
+PROD0260,Product 260,Software,814.4,1226.46
+PROD0261,Product 261,Accessories,199.35,355.36
+PROD0262,Product 262,Software,630.1,1313.44
+PROD0263,Product 263,Electronics,224.58,396.73
+PROD0264,Product 264,Electronics,748.04,1138.89
+PROD0265,Product 265,Furniture,586.72,767.95
+PROD0266,Product 266,Furniture,292.94,404.21
+PROD0267,Product 267,Furniture,254.25,453.37
+PROD0268,Product 268,Furniture,409.44,777.74
+PROD0269,Product 269,Accessories,728.62,945.15
+PROD0270,Product 270,Electronics,724.7,1033.62
+PROD0271,Product 271,Office Supplies,68.7,106.7
+PROD0272,Product 272,Accessories,299.97,466.09
+PROD0273,Product 273,Office Supplies,403.65,872.08
+PROD0274,Product 274,Furniture,543.6,784.73
+PROD0275,Product 275,Electronics,168.59,220.75
+PROD0276,Product 276,Electronics,328.34,520.54
+PROD0277,Product 277,Accessories,801.61,1104.39
+PROD0278,Product 278,Furniture,449.83,616.38
+PROD0279,Product 279,Electronics,679.96,1113.15
+PROD0280,Product 280,Software,456.91,704.13
+PROD0281,Product 281,Office Supplies,439.89,588.19
+PROD0282,Product 282,Accessories,574.86,1048.6
+PROD0283,Product 283,Furniture,263.05,454.19
+PROD0284,Product 284,Software,254.83,337.2
+PROD0285,Product 285,Electronics,890.84,1843.69
+PROD0286,Product 286,Electronics,787.33,1197.12
+PROD0287,Product 287,Software,674.47,1459.09
+PROD0288,Product 288,Software,157.94,337.2
+PROD0289,Product 289,Office Supplies,65.99,109.7
+PROD0290,Product 290,Electronics,190.85,280.0
+PROD0291,Product 291,Furniture,846.45,1729.39
+PROD0292,Product 292,Accessories,742.01,1182.19
+PROD0293,Product 293,Accessories,489.85,688.42
+PROD0294,Product 294,Furniture,873.15,1548.99
+PROD0295,Product 295,Electronics,166.06,284.78
+PROD0296,Product 296,Office Supplies,520.87,1071.7
+PROD0297,Product 297,Accessories,197.57,383.84
+PROD0298,Product 298,Furniture,303.53,632.05
+PROD0299,Product 299,Office Supplies,848.52,1652.89
+PROD0300,Product 300,Software,786.72,1463.35
+PROD0301,Product 301,Electronics,127.55,220.05
+PROD0302,Product 302,Office Supplies,254.61,557.13
+PROD0303,Product 303,Office Supplies,551.28,1191.43
+PROD0304,Product 304,Office Supplies,92.76,190.75
+PROD0305,Product 305,Accessories,513.07,1019.24
+PROD0306,Product 306,Office Supplies,542.66,976.07
+PROD0307,Product 307,Office Supplies,290.23,434.41
+PROD0308,Product 308,Electronics,292.09,608.03
+PROD0309,Product 309,Accessories,237.01,298.7
+PROD0310,Product 310,Electronics,844.68,1238.36
+PROD0311,Product 311,Electronics,374.43,611.65
+PROD0312,Product 312,Office Supplies,543.33,981.72
+PROD0313,Product 313,Office Supplies,299.35,533.69
+PROD0314,Product 314,Software,644.29,912.98
+PROD0315,Product 315,Accessories,127.24,171.72
+PROD0316,Product 316,Accessories,101.61,148.47
+PROD0317,Product 317,Furniture,680.08,1075.39
+PROD0318,Product 318,Office Supplies,664.93,840.04
+PROD0319,Product 319,Software,267.9,511.11
+PROD0320,Product 320,Furniture,345.34,512.95
+PROD0321,Product 321,Accessories,863.24,1367.23
+PROD0322,Product 322,Office Supplies,129.72,203.42
+PROD0323,Product 323,Electronics,197.51,342.92
+PROD0324,Product 324,Office Supplies,409.83,847.04
+PROD0325,Product 325,Electronics,282.61,393.37
+PROD0326,Product 326,Electronics,598.15,941.3
+PROD0327,Product 327,Electronics,633.92,1209.16
+PROD0328,Product 328,Electronics,492.69,636.57
+PROD0329,Product 329,Furniture,565.63,1153.03
+PROD0330,Product 330,Software,412.74,893.06
+PROD0331,Product 331,Furniture,693.93,1267.99
+PROD0332,Product 332,Accessories,76.2,164.49
+PROD0333,Product 333,Office Supplies,309.09,507.65
+PROD0334,Product 334,Electronics,628.61,1033.61
+PROD0335,Product 335,Electronics,323.49,437.01
+PROD0336,Product 336,Software,107.54,138.05
+PROD0337,Product 337,Office Supplies,336.71,499.1
+PROD0338,Product 338,Software,651.89,1110.97
+PROD0339,Product 339,Furniture,144.91,251.03
+PROD0340,Product 340,Accessories,663.18,966.05
+PROD0341,Product 341,Accessories,706.89,1295.14
+PROD0342,Product 342,Software,586.36,833.89
+PROD0343,Product 343,Electronics,250.04,390.04
+PROD0344,Product 344,Software,732.55,1051.89
+PROD0345,Product 345,Furniture,224.42,429.05
+PROD0346,Product 346,Accessories,819.01,1425.69
+PROD0347,Product 347,Office Supplies,647.72,1262.6
+PROD0348,Product 348,Office Supplies,87.06,113.56
+PROD0349,Product 349,Furniture,727.39,1203.17
+PROD0350,Product 350,Accessories,475.53,1031.24
+PROD0351,Product 351,Electronics,429.28,558.47
+PROD0352,Product 352,Office Supplies,401.64,661.69
+PROD0353,Product 353,Office Supplies,561.7,723.68
+PROD0354,Product 354,Accessories,663.14,921.31
+PROD0355,Product 355,Furniture,810.54,1369.33
+PROD0356,Product 356,Office Supplies,274.73,384.52
+PROD0357,Product 357,Office Supplies,582.47,1015.14
+PROD0358,Product 358,Office Supplies,630.25,1340.29
+PROD0359,Product 359,Office Supplies,620.33,893.52
+PROD0360,Product 360,Accessories,463.98,627.22
+PROD0361,Product 361,Accessories,376.28,765.36
+PROD0362,Product 362,Office Supplies,695.65,1173.74
+PROD0363,Product 363,Electronics,298.01,622.39
+PROD0364,Product 364,Office Supplies,218.93,337.33
+PROD0365,Product 365,Electronics,509.41,940.45
+PROD0366,Product 366,Electronics,270.15,574.65
+PROD0367,Product 367,Accessories,68.58,96.91
+PROD0368,Product 368,Furniture,84.36,169.62
+PROD0369,Product 369,Office Supplies,637.71,1179.73
+PROD0370,Product 370,Software,876.91,1773.37
+PROD0371,Product 371,Electronics,431.03,608.68
+PROD0372,Product 372,Electronics,166.47,276.74
+PROD0373,Product 373,Electronics,743.55,1020.44
+PROD0374,Product 374,Electronics,264.83,572.58
+PROD0375,Product 375,Accessories,896.24,1173.68
+PROD0376,Product 376,Accessories,524.41,688.14
+PROD0377,Product 377,Office Supplies,240.06,504.91
+PROD0378,Product 378,Electronics,466.56,716.51
+PROD0379,Product 379,Office Supplies,328.43,596.81
+PROD0380,Product 380,Electronics,710.35,1081.94
+PROD0381,Product 381,Office Supplies,131.0,244.49
+PROD0382,Product 382,Office Supplies,777.02,1113.35
+PROD0383,Product 383,Electronics,699.91,1180.0
+PROD0384,Product 384,Accessories,780.77,1371.67
+PROD0385,Product 385,Accessories,809.69,1268.75
+PROD0386,Product 386,Furniture,237.61,353.83
+PROD0387,Product 387,Office Supplies,488.06,675.08
+PROD0388,Product 388,Office Supplies,770.93,1480.83
+PROD0389,Product 389,Electronics,364.55,513.97
+PROD0390,Product 390,Electronics,91.95,140.46
+PROD0391,Product 391,Office Supplies,290.81,456.59
+PROD0392,Product 392,Software,248.05,417.13
+PROD0393,Product 393,Office Supplies,788.25,1511.42
+PROD0394,Product 394,Office Supplies,438.91,727.08
+PROD0395,Product 395,Office Supplies,627.85,1304.38
+PROD0396,Product 396,Furniture,867.42,1644.45
+PROD0397,Product 397,Electronics,297.3,608.44
+PROD0398,Product 398,Furniture,694.63,1341.01
+PROD0399,Product 399,Software,59.58,82.89
+PROD0400,Product 400,Accessories,129.54,282.27
+PROD0401,Product 401,Software,179.2,357.91
+PROD0402,Product 402,Electronics,308.68,553.8
+PROD0403,Product 403,Office Supplies,386.57,543.89
+PROD0404,Product 404,Office Supplies,450.23,636.65
+PROD0405,Product 405,Electronics,250.98,460.2
+PROD0406,Product 406,Electronics,96.95,159.52
+PROD0407,Product 407,Accessories,622.67,1178.13
+PROD0408,Product 408,Office Supplies,60.35,96.79
+PROD0409,Product 409,Office Supplies,736.14,1278.82
+PROD0410,Product 410,Electronics,839.07,1198.66
+PROD0411,Product 411,Office Supplies,650.92,909.62
+PROD0412,Product 412,Electronics,552.53,730.37
+PROD0413,Product 413,Electronics,605.04,1227.42
+PROD0414,Product 414,Office Supplies,600.91,1068.19
+PROD0415,Product 415,Furniture,841.27,1808.55
+PROD0416,Product 416,Software,869.3,1705.58
+PROD0417,Product 417,Furniture,406.97,805.93
+PROD0418,Product 418,Electronics,570.69,989.35
+PROD0419,Product 419,Electronics,730.41,1478.85
+PROD0420,Product 420,Accessories,40.89,87.71
+PROD0421,Product 421,Electronics,493.23,954.72
+PROD0422,Product 422,Electronics,601.47,812.17
+PROD0423,Product 423,Furniture,656.8,1227.21
+PROD0424,Product 424,Electronics,357.16,487.31
+PROD0425,Product 425,Office Supplies,294.25,389.4
+PROD0426,Product 426,Office Supplies,196.64,375.24
+PROD0427,Product 427,Electronics,519.72,1061.81
+PROD0428,Product 428,Accessories,830.6,1163.59
+PROD0429,Product 429,Furniture,810.54,1070.27
+PROD0430,Product 430,Office Supplies,349.57,731.37
+PROD0431,Product 431,Electronics,261.76,360.08
+PROD0432,Product 432,Office Supplies,718.36,921.89
+PROD0433,Product 433,Furniture,663.48,1283.83
+PROD0434,Product 434,Office Supplies,474.59,975.44
+PROD0435,Product 435,Furniture,374.57,651.28
+PROD0436,Product 436,Software,146.47,258.22
+PROD0437,Product 437,Electronics,715.22,1122.91
+PROD0438,Product 438,Software,571.02,843.13
+PROD0439,Product 439,Software,364.12,716.4
+PROD0440,Product 440,Furniture,830.16,1707.49
+PROD0441,Product 441,Furniture,607.32,944.49
+PROD0442,Product 442,Furniture,839.15,1267.22
+PROD0443,Product 443,Software,447.99,673.96
+PROD0444,Product 444,Office Supplies,430.97,559.43
+PROD0445,Product 445,Office Supplies,846.03,1283.45
+PROD0446,Product 446,Electronics,865.42,1102.86
+PROD0447,Product 447,Accessories,866.26,1731.64
+PROD0448,Product 448,Electronics,744.25,1111.26
+PROD0449,Product 449,Electronics,437.67,834.04
+PROD0450,Product 450,Electronics,220.86,390.05
+PROD0451,Product 451,Furniture,369.76,756.38
+PROD0452,Product 452,Software,846.94,1831.39
+PROD0453,Product 453,Accessories,352.66,563.88
+PROD0454,Product 454,Electronics,690.78,921.45
+PROD0455,Product 455,Furniture,833.78,1636.01
+PROD0456,Product 456,Accessories,874.54,1110.87
+PROD0457,Product 457,Office Supplies,855.0,1249.85
+PROD0458,Product 458,Electronics,517.35,672.86
+PROD0459,Product 459,Furniture,463.02,973.84
+PROD0460,Product 460,Office Supplies,889.37,1116.19
+PROD0461,Product 461,Software,227.63,391.09
+PROD0462,Product 462,Office Supplies,201.28,332.68
+PROD0463,Product 463,Electronics,868.34,1623.89
+PROD0464,Product 464,Accessories,632.71,965.05
+PROD0465,Product 465,Electronics,501.22,1042.54
+PROD0466,Product 466,Accessories,153.56,299.08
+PROD0467,Product 467,Furniture,481.39,799.43
+PROD0468,Product 468,Electronics,852.03,1354.83
+PROD0469,Product 469,Furniture,558.49,1130.99
+PROD0470,Product 470,Electronics,387.98,764.01
+PROD0471,Product 471,Electronics,513.95,837.25
+PROD0472,Product 472,Office Supplies,802.08,1262.72
+PROD0473,Product 473,Accessories,825.05,1061.79
+PROD0474,Product 474,Accessories,384.08,509.91
+PROD0475,Product 475,Furniture,562.93,732.5
+PROD0476,Product 476,Electronics,280.11,356.63
+PROD0477,Product 477,Office Supplies,427.93,597.06
+PROD0478,Product 478,Furniture,229.1,472.93
+PROD0479,Product 479,Electronics,497.07,998.24
+PROD0480,Product 480,Software,537.29,1103.21
+PROD0481,Product 481,Software,330.54,609.06
+PROD0482,Product 482,Electronics,274.02,504.98
+PROD0483,Product 483,Accessories,169.88,232.35
+PROD0484,Product 484,Office Supplies,160.01,306.26
+PROD0485,Product 485,Electronics,651.86,988.24
+PROD0486,Product 486,Office Supplies,230.61,402.02
+PROD0487,Product 487,Electronics,141.46,305.13
+PROD0488,Product 488,Electronics,899.03,1867.36
+PROD0489,Product 489,Software,263.53,387.79
+PROD0490,Product 490,Office Supplies,810.6,1580.52
+PROD0491,Product 491,Electronics,563.9,760.64
+PROD0492,Product 492,Furniture,654.96,835.34
+PROD0493,Product 493,Software,522.39,666.97
+PROD0494,Product 494,Furniture,195.5,275.99
+PROD0495,Product 495,Software,768.46,1467.91
+PROD0496,Product 496,Accessories,752.06,1199.64
+PROD0497,Product 497,Furniture,340.73,431.07
+PROD0498,Product 498,Office Supplies,696.91,1525.27
+PROD0499,Product 499,Office Supplies,507.01,890.67
+PROD0500,Product 500,Accessories,821.78,1334.72
